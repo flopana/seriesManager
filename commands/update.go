@@ -8,7 +8,7 @@ import (
 )
 
 func DoUpdate(logger *log.Logger){
-	url := "s"
+	url := "https://github.com/flopana/seriesManager/releases/latest/download/seriesManager.exe"
 	resp, err := http.Get(url)
 	if err != nil {
 		logger.Panic(err)
