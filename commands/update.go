@@ -1,6 +1,7 @@
 package commands
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 
@@ -18,4 +19,5 @@ func DoUpdate(logger *log.Logger){
 	if err != nil {
 		logger.Panic(err)
 	}
+	fmt.Println("PLEASE RESTART")
 }
