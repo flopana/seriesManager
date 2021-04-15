@@ -1,4 +1,4 @@
-module serienManager
+module seriesManager
 
 go 1.14
 

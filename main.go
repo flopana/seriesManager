@@ -4,8 +4,8 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"serienManager/commands"
-	"serienManager/config"
+	"seriesManager/commands"
+	"seriesManager/config"
 )
 
 func main() {

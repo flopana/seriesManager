@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"serienManager/config"
+	"seriesManager/config"
 )
 
 func Extras(db *sql.DB, logger *log.Logger, conf config.Config){

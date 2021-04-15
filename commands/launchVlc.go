@@ -2,7 +2,7 @@ package commands
 
 import (
 	"os/exec"
-	"serienManager/config"
+	"seriesManager/config"
 )
 
 func LaunchVlv(config config.Config, filePath string)  {
